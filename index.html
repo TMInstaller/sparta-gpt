@@ -20,34 +20,67 @@
       crossorigin="anonymous"
     ></script>
     <style>
-      .hero {
-        height: 100vh;
-        background-color: #2b2d42;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: #fff;
-      }
-
-      .hero h1 {
-        font-size: 5rem;
-        font-weight: bold;
-        margin-bottom: 2rem;
-      }
-
-      .hero h2 {
-        font-size: 2rem;
-        font-weight: bold;
-      }
+      /* 꾸미기 */
     </style>
   </head>
 
   <body>
-    <div class="hero">
-      <h1>르탄이의 중고마켓</h1>
-      <h2>집에 있는 물건을 팝니다!</h2>
+    <div class="hero bg-dark text-center py-5">
+      <h1 class="text-white">나만의 르탄마켓</h1>
+      <h2 class="text-white">집에 있는 물건을 팝니다!</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <a href="https://spartacodingclub.kr" target="_blank"
+              ><img
+                src="https://source.unsplash.com/1600x900/?rice-cooker"
+                class="card-img-top"
+            /></a>
+            <div class="card-body">
+              <h5 class="card-title"><span>전기밥솥</span></h5>
+              <h6 class="card-subtitle mb-2 text-muted">5만원</h6>
+              <p class="card-text">
+                한 번 밖에 안쓴 전기밥솥 팝니다. 부모님이 독립 할 때 주신
+                거에요!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <a href="https://spartacodingclub.kr" target="_blank"
+              ><img
+                src="https://source.unsplash.com/1600x900/?washing-machine"
+                class="card-img-top"
+            /></a>
+            <div class="card-body">
+              <h5 class="card-title"><span>세탁기</span></h5>
+              <h6 class="card-subtitle mb-2 text-muted">10만원</h6>
+              <p class="card-text">
+                3년 정도 사용한 세탁기 팝니다. 최근에도 잘 동작하고 있어요.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <a href="https://spartacodingclub.kr" target="_blank"
+              ><img
+                src="https://source.unsplash.com/1600x900/?television"
+                class="card-img-top"
+            /></a>
+            <div class="card-body">
+              <h5 class="card-title"><span>TV</span></h5>
+              <h6 class="card-subtitle mb-2 text-muted">30만원</h6>
+              <p class="card-text">
+                55인치 Full HD TV 팝니다. 게임하기에도 좋아요.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
